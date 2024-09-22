@@ -18,7 +18,7 @@ There are two major steps in CGE. $f$ and $\varphi = \{\Phi, \Psi\}$ denote an N
 
 **Firstly, clone the rep:**
 ```bash
-git clone https://github.com/fengxxu/cge.git
+git lfs clone https://github.com/fengxxu/cge.git
 cd cge
 unzip benchmarks.zip
 ```
