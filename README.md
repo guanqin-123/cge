@@ -16,6 +16,8 @@ There are two major steps in CGE. $f$ and $\varphi = \{\Phi, \Psi\}$ denote an N
 
 ## How to run
 
+**Please note that to download this repository, your Git installation requires [Git Large File Storage](https://git-lfs.com/)**
+
 **Firstly, clone the rep:**
 ```bash
 git lfs clone https://github.com/fengxxu/cge.git
