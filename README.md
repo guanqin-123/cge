@@ -20,7 +20,9 @@ There are two major steps in CGE. $f$ and $\varphi = \{\Phi, \Psi\}$ denote an N
 ```bash
 git lfs clone https://github.com/fengxxu/cge.git
 cd cge
+mkdir results
 unzip benchmarks.zip
+unzip verification_results.zip
 ```
 **Secondly, create a new environment, or skip to the next step:**
 
