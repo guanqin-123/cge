@@ -24,28 +24,16 @@ mkdir results
 unzip benchmarks.zip
 unzip verification_results.zip
 ```
-**Secondly, create a new environment, or skip to the next step:**
+**Secondly, create a new environment and install environment using conda:**
 
-For example, using conda ([How to install](https://docs.conda.io/projects/miniconda/en/latest/))
+(Install conda ([How to install](https://docs.conda.io/projects/miniconda/en/latest/)) if necessary)
 
-```bash
-conda create --name cge python=3.10
-conda activate cge
+
+Install environments
+``` bash
+conda env create -f environments.yml
 ```
 
-**Thirdly, install the libraries:**
 
-Choice 1: Please note the libraries in the requirements.txt file are used for running the verifiers and CGE, 
-```bash
-conda install --file requirements.txt
-```
-Choice 2: for CGE only, run the following commands,
-```bash
-conda install -c anaconda jupyter
-conda install -c anaconda pandas
-conda install -c conda-forge onnxruntime
-conda install -c anaconda numpy
-pip install z3-solver
-```
 **Lastly, open the main.ipynb, select the correct kernel for the notebook, following instructions in the notebook to replicate the experiment**
 
