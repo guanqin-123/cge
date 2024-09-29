@@ -1,6 +1,6 @@
 # Counterexample-Guided Evaluation for Neural Network Verification
 
-Paper: On the Soundness and Completeness of Neural Network Verification Tools
+Paper: On the Soundness and Completeness of Neural Network Verifiers
 
 **Framework:**
 <p align="center">
